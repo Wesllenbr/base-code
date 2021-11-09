@@ -1,6 +1,8 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
+    --header-height: ;
+    
     /*========== Colors ==========*/
     --primary-color: ;
     --primary-color-light: ;
@@ -27,7 +29,7 @@
 }
 
 /*FONT SIZE FOR LARGES DEVICES */
-@media screen and (min-width: 968px) {
+@media (min-width: 968px) {
     :root {
         --h1-font-size: ;
         --h2-font-size: ;
