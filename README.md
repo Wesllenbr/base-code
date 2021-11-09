@@ -1,1 +1,1 @@
-# base-code
+# CSS code base structure
