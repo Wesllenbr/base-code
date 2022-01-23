@@ -57,6 +57,7 @@ body{
     height: 100vh;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
+    line-height: 1.5;
     margin: var(--header-height);
     background-color: var(--body-color);
     color: var(--text-color);
@@ -76,13 +77,19 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
   padding: 5.5rem 0 1rem;
+}
+
+.section__title,
+.section__title-center{
+  font-size: var(--h2-font-size);
+  margin-bottom: ;
 }
 
 .container {
