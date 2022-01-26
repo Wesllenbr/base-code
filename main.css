@@ -90,7 +90,7 @@ img {
 .section__title,
 .section__title-center{
   font-size: var(--h2-font-size);
-  margin-bottom: ;
+  margin-bottom: 1rem;
 }
 
 .container {
