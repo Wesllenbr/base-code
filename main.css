@@ -3,17 +3,16 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: ;
     
     /*========== Colors ==========*/
-    --primary-color: ;
-    --primary-color-light: ;
-    --secondary-color: ;
-    --acent-color: ;
-    --white-color: ;
-    --black-color: ;
+    --primary: ;
+    --primary-light: ;
+    --secondary: ;
+    --acent: ;
+    --white: ;
+    --black: ;
+    
     /*========== Font and typography ==========*/
-/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --body-font: ;
     --title-font: ;
     --h1-font-size: ;
@@ -58,14 +57,12 @@ body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     line-height: 1.5;
-    margin: var(--header-height);
     background-color: ;
     color: ;
 }
 
 h1,h2,h3{
-    font-weight: var(--font-semi-bold);
-    line-height: 1.3;
+    font-weight: var(--font-bold);
     color: var(--title-color);
 }
 
@@ -80,6 +77,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
