@@ -5,12 +5,11 @@
 :root {
     
     /*========== Colors ==========*/
-    --primary: ;
-    --primary-light: ;
-    --secondary: ;
-    --acent: ;
-    --white: ;
-    --black: ;
+    --primary-color: ;
+    --secondary-color: ;
+    --acent-color: ;
+    --white-color: #fff;
+    --black-color: #000;
     
     /*========== Font and typography ==========*/
     --body-font: ;
@@ -77,25 +76,23 @@ a {
 img {
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 75rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
 .section {
   padding: 5.5rem 0 1rem;
 }
 
-.section__title,
-.section__title-center{
-  font-size: var(--h2-font-size);
-  margin-bottom: 1rem;
+/*=============== SCSS FUNCTIONS ===============*/
+
+/*========== CONVERT PX TO REM ==========*/
+@mixin width($value) {
+    width: ($value / 16) + rem;
 }
 
-.container {
-  max-width: 968px;
-  margin: 0 1.5rem;
-}
-
-.grid {
-  display: grid;
-}
