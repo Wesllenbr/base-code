@@ -89,10 +89,5 @@ img {
   padding: 5.5rem 0 1rem;
 }
 
-/*=============== SCSS FUNCTIONS ===============*/
 
-/*========== CONVERT PX TO REM ==========*/
-@mixin width($value) {
-    width: ($value / 16) + rem;
-}
 
