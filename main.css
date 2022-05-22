@@ -26,6 +26,11 @@
     --font-medium: ;
     --font-semi-bold: ;
     --font-bold: ;
+    
+     /*========== Margin and paddings ==========*/
+    --section-top-padding: 4rem;
+    --section-bottom-padding: 1rem;
+    --container-edges-margin: 1.5rem;
 }
 
 /*FONT SIZE FOR LARGES DEVICES */
@@ -37,6 +42,10 @@
         --normal-font-size: ;
         --small-font-size: ;
         --smaller-font-size: ;
+        
+        --section-top-padding: 6rem;
+        --section-bottom-padding: 2rem;
+        --container-edges-margin: 5rem;
     }
 }
 
@@ -84,11 +93,11 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 75rem;
-  margin: 0 1.5rem;
+  margin: 0 var(--container-edges-margin);
 }
 
 .section {
-  padding: 5.5rem 0 1rem;
+  padding: var(--section-top-padding) 0 var(--section-bottom-padding) 0;
 }
 
 /*=============== BREAKPOINTS ===============*/
