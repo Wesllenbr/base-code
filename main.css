@@ -56,21 +56,23 @@ body {
     height: 100vh;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
+    font-weight: var(--font-regular);
     line-height: 1.5;
-    background-color: ;
+    background-color: var(--prymary-color);
     color: ;
 }
 
 h1,h2,h3{
+    font-family: var(--title-font);
     font-weight: var(--font-bold);
     color: var(--title-color);
 }
 
-ul {
+ul[class] {
     list-style: none;
 }
 
-a {
+a[class] {
     text-decoration: none;
 }
 
