@@ -70,11 +70,11 @@ h1,h2,h3{
     color: var(--title-color);
 }
 
-ul[class] {
+ul {
     list-style: none;
 }
 
-a[class] {
+a {
     text-decoration: none;
 }
 
