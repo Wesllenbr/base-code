@@ -5,9 +5,12 @@
 :root {
     
     /*========== Colors ==========*/
+    /*======= Primary(60%), Secondary(40%), Acent(10%) =======*/
     --primary-color: ;
     --secondary-color: ;
     --acent-color: ;
+    
+    /*======= Neutral Colors =======*/
     --white-color: #fff;
     --black-color: #000;
     
@@ -22,10 +25,10 @@
     --smaller-font-size: ;
 
     /*========== Font weight ==========*/
-    --font-regular: ;
-    --font-medium: ;
-    --font-semi-bold: ;
-    --font-bold: ;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
 }
 
 /*FONT SIZE FOR LARGES DEVICES */
