@@ -70,7 +70,7 @@ body {
 h1,h2,h3{
     font-family: var(--title-font);
     font-weight: var(--font-bold);
-    color: var(--title-color);
+    color: ;
 }
 
 ul {
@@ -89,7 +89,7 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 75rem;
-  margin:;
+  margin: 0 1.5rem;
 }
 
 .section {
