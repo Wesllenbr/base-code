@@ -11,8 +11,9 @@
     --acent-color: ;
     
     /*======= Neutral Colors =======*/
-    --white-color: #fff;
-    --black-color: #000;
+    --white: #fffefd;
+    --black: #1b1c1e;
+;
     
     /*========== Font and typography ==========*/
     --body-font: ;
