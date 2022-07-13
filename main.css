@@ -11,7 +11,7 @@
     --clr-acent: ;
     
     /*======= Neutral Colors =======*/
-     --clr-neutral-1: #fffefd;
+    --clr-neutral-1: #fffefd;
     --clr-neutral-2: #1b1c1e;
     
     /*========== Font size and typography ==========*/
@@ -59,8 +59,8 @@
 /* Remove default margin */
 body,
 h1,
-h2,
 h3,
+h2,
 h4,
 p,
 figure,
@@ -92,12 +92,13 @@ body {
     font-weight: var(--fw-regular);
     line-height: 1.5;
     background-color: var(--clr-primary);
-    color: ;
+    color: var(--clr-neutral-1);
 }
 
 h1,h2,h3{
     font-family: var(--ff-title);
     font-weight: var(--fw-bold);
+    line-height: 1.3;
     color: ;
 }
 
