@@ -20,12 +20,12 @@
     --ff-title: ;
     
     /*======= Font size =======*/
-    --fs-primary: 25rem;
+    --fs-primary: 2rem;
     --fs-secondary: 1.375rem;
     --fs-tertiary: 1.188rem;
     --fs-body: 0.875rem;
     --fs-small: 0.75rem;
-}
+
     /*========== Font weight ==========*/
     --fw-thin: 300;
     --fw-regular: 400;
